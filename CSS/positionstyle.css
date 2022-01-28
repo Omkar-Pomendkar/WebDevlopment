@@ -1,0 +1,48 @@
+/* 1.static
+2.relative
+3.fixed
+4.absolute */
+
+/* 
+1.top
+2.bottom
+3.left
+4.right */
+/* 
+relative - start calculation from its Self && relative doesnt leave its position
+absoulte - start calculation from its positioned parent if not then body  && it leaves its position
+fixed - */
+
+#parent
+{
+    border: 2px solid red;
+    padding: 50px;
+    width: 50%;
+    position: relative;
+}
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+#two{
+
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    
+}
+
+#three{
+
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    display: inline-block;
+}
