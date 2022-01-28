@@ -1,0 +1,24 @@
+/* Types of Display Element
+1) Block - default - div ,p , h1 ,form
+    a) Starts with new line
+    b) Apply height & width
+    c) Contain Full Width
+2) Inline 
+    a) You cannot Apply height & width
+    b) Dosen't Start with new line
+    c) No full width
+3) Inline-block - img , anchor
+    a) You can Apply height & width
+    b) Dosen't Start with new line
+    c)  full width
+4) None  */
+.display{
+    border: 1px solid rgb(235, 10, 10);
+    height: 100px;
+    width: 50%;
+    display: inline-block;
+}
+#div1{
+    /* display: none; */
+    visibility: hidden;
+}
