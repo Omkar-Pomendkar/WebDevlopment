@@ -1,0 +1,11 @@
+console.log("Manipulating Websites Using JS Window Object ");
+let a = window.document;
+// alert("HEllo OMkar");
+// a = prompt("This will destroy your Computer");
+// a = confirm("Are you sure u want to delete");
+a = innerHeight;
+a = scrollX;
+a = scrollY;
+a = location;
+a = window.history;
+console.log(a);
