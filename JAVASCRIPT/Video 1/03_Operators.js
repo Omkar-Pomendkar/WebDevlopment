@@ -174,3 +174,27 @@ let num = 10;
 let total = (num*(num+1)/2);
 console.log(total);
 
+// Break & Continue Keyword
+console.log("Array");
+// let i = 1;
+// for( ;i<=10;i++)
+// {   
+//     if(i === 5)
+//     {
+//         // break;
+//         continue; //in Continue VAlue Skips
+//     }
+//     console.log(i);
+// }
+console.log("Array");
+
+// do while loop
+// First the loop will run one's
+let l = 1;
+do{
+    
+    console.log(l);
+    l++;
+
+}while(l <= 10);
+console.log(l);

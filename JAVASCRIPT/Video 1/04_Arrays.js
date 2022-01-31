@@ -1,11 +1,116 @@
-// Break & Continue Keyword
+//Primitive vs Reference Datatypes
+//This is PRimitive Type
+console.log("PRIMITIVE TYPE");
+let num1 = 6;
+let num2 = 7;
+console.log("value of Num1 is"+num1);
+console.log("value of Num2 is"+num2);
+num1++;
+console.log("value of Num1 is"+num1);
+
+
+// This is Refrence Type
+console.log("REFRENCE TYPE");
+let array1 = ["item1","item2"];
+let array2 = array1;
+console.log("array1 : " + array1);
+console.log("array2 : " + array2);
+array2.push("item3");
+console.log(array2);
+console.log(array1);
+
+
 console.log("Array");
-for(let i = 1; i<=10;i++)
-{   
-    if(i === 1)
-    {
-        break;
-    }
-    console.log(i);
+// Into to Array
+// Array is REfreence Type
+
+// let fruit = "Apple";
+// Ordered Collection of Items;
+
+
+// how to Create Array
+let fruits = ["orange","Apple","Mango"];
+console.log(fruits);
+// console.log(fruits[0]);
+// console.log(fruits.length);
+
+let numbers = [1,2,3,4,5];
+console.log(numbers);
+
+let mixed = [null,undefined,1,1,"Array"];
+console.log(mixed);
+
+// let fruits = ["orange","Apple","Mango"];
+// Array Indexing
+fruits[1] = "KIWI";
+
+console.log(typeof fruits);
+
+// to Check Whether it is Array or NOt
+console.log(Array.isArray(fruits));
+
+
+// Array Operation
+//push
+fruits.push("pomogranate");
+console.log(fruits);
+
+// pop
+let d = fruits.pop();
+console.log(d);
+console.log(fruits);
+
+//unshift to add element in fruit
+fruits.unshift("Banana");
+console.log(fruits);
+
+//shift
+let removedFruit = fruits.shift();
+console.log(removedFruit);
+console.log(fruits);
+
+//How to Clone Array
+
+let array5 = ["a","b"];
+// let array6 = array5;
+
+let array10 = [].concat(array5);
+console.log(array10);
+
+let array6 = array5.slice(0);
+console.log(array5 === array6);
+
+// New way to Clone Array
+// Spread Operator
+let array12 = [...array5];
+console.log(array12);
+console.log(array5);
+
+// How to Calculate Array
+let number = [1,2,3,4,5];
+let digits = [];
+
+//For loop
+for (let i = 0; i < number.length; i++) {
+    //  let element = number[i];
+    //  console.log(element);
+    digits.push(console.log(number[i]));
 }
-console.log("Array");
+console.log(digits);
+
+// const 
+const pi = 3.14;
+// pi = 90;
+
+
+// array is stored in heap memory
+const fruit = ["mango", "apple"];  
+fruits.push("banana");
+
+console.log(fruit);
+
+// Array Destructuring;
+let name = ["omkar", "pomendkar"];
+
+
+ 

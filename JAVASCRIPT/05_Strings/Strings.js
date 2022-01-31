@@ -17,3 +17,10 @@ console.log(html.includes('Heading'));
 console.log(html.substring(1,7));
 
 
+// Array Destructuring
+const myArr = ["value1","value2"];
+let myVar1 = myArr[0];
+let myVar1 = myArr[1];
+
+console.log(myVar1);
+console.log(myVar2);

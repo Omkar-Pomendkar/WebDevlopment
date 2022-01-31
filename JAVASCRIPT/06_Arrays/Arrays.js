@@ -23,3 +23,4 @@ marks.splice(1,3);
 marks.reverse();
 marks = marks.concat(fruits);
 console.log(marks);
+
