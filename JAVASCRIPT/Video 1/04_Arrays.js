@@ -1,4 +1,6 @@
 //Primitive vs Reference Datatypes
+// Primitive Datatype - We can Change Value
+// Reference Datatype - We cannot change Value
 //This is PRimitive Type
 console.log("PRIMITIVE TYPE");
 let num1 = 6;
@@ -112,5 +114,16 @@ console.log(fruit);
 // Array Destructuring;
 let name = ["omkar", "pomendkar"];
 
+let name1 = name[0];
+let name2 = name[1];
 
+console.log(name1,name2);
  
+let fruits1 = ["apple", "Grapes","banana","sustard apple", "orange"];
+let fruits2 = fruits1.slice(2,3);
+console.log(fruits2);
+//this is destructuring ... (3 Dots)
+let [a,b,...c] = fruits1;
+console.log(a);
+// console.log(b);
+console.log(c);
