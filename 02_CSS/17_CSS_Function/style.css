@@ -1,0 +1,23 @@
+:root 
+{
+    --primary-color:teal;
+    --btn-color:rgb(230, 86, 86);
+    --text-color: rgb(0, 0, 0);
+}
+
+
+#fun
+{
+    background-color: var(--primary-color);
+    height: 200px;
+    /* width: 200px; */
+    /* width: 70%; */
+    width: calc(100% - 200px);
+} 
+a{
+    padding: 10px 30px;
+    margin: 30px;
+    background-color: var(--btn-color);
+    color: var( --text-color);
+    text-decoration: none;
+}

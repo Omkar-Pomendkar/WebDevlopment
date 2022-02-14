@@ -1,0 +1,14 @@
+ul
+{
+    list-style-type:lower-greek;
+}
+
+ol
+{
+    list-style:decimal-leading-zero;
+    list-style-image: url("./arrow.jpg");
+}
+li
+{
+    border: 2px solid black;
+}

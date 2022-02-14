@@ -1,0 +1,8 @@
+p::first-line
+{
+    color: blue;
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}

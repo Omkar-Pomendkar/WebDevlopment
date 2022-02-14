@@ -1,0 +1,6 @@
+/* Pseudo Class Syntax
+    selector:pseudo class */
+    li:first-child
+    {
+        color: green;
+    }

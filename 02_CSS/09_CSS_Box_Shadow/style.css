@@ -1,0 +1,9 @@
+div{
+    border: 5px solid salmon;
+    width: 500px;
+    background-color: aliceblue;
+    margin: 100px;
+    padding: 80px;
+    box-shadow: 10px 15px  15px 10px gray ,-10px 15px  15px 10px rgb(189, 45, 45)  inset;
+    /*           X     Y   blur  spread radius inside shadow*/
+}

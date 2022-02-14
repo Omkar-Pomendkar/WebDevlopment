@@ -1,0 +1,37 @@
+/* *
+{
+    color: blue;
+} */
+header
+{
+    background-color: aqua;
+}
+section.my-articles
+{
+    background-color: aliceblue;
+}
+/* Decendent Selector OR Combinator */
+header p{
+
+    color: red;
+}
+
+li a{
+    color: green;
+}
+/* section.my-articles h2{
+    color: slategray;
+} */
+
+/* Direct Child Selector */
+section.my-articles > h2{
+    color: green;
+}
+/* adjacent Selector */
+h2+p
+{
+    color: orange;
+}
+ul+p{
+    color: rgb(217, 255, 0);
+}
